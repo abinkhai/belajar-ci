@@ -1,0 +1,203 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building belajar-ci 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ belajar-ci ---
+[INFO] Deleting D:\Private\learn-to-fly\Spring\boot\belajar-ci\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ belajar-ci ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ belajar-ci ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to D:\Private\learn-to-fly\Spring\boot\belajar-ci\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ belajar-ci ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Private\learn-to-fly\Spring\boot\belajar-ci\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ belajar-ci ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to D:\Private\learn-to-fly\Spring\boot\belajar-ci\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ belajar-ci ---
+[INFO] Surefire report directory: D:\Private\learn-to-fly\Spring\boot\belajar-ci\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+15:19:16.573 [main] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.khaidir.belajar.ci.BelajarCiApplicationTests]
+15:19:16.595 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:19:16.605 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:19:16.625 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.khaidir.belajar.ci.BelajarCiApplicationTests] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+15:19:16.712 [main] DEBUG o.s.t.c.w.WebTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@731a74c declaringClass = 'com.khaidir.belajar.ci.BelajarCiApplicationTests', classes = '{class com.khaidir.belajar.ci.BelajarCiApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+15:19:16.725 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.khaidir.belajar.ci.BelajarCiApplicationTests]: class path resource [com/khaidir/belajar/ci/BelajarCiApplicationTests-context.xml] does not exist
+15:19:16.726 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.khaidir.belajar.ci.BelajarCiApplicationTests]: class path resource [com/khaidir/belajar/ci/BelajarCiApplicationTestsContext.groovy] does not exist
+15:19:16.726 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.khaidir.belajar.ci.BelajarCiApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:19:16.727 [main] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.khaidir.belajar.ci.BelajarCiApplicationTests]
+15:19:16.727 [main] DEBUG o.s.t.c.w.WebTestContextBootstrapper - @TestExecutionListeners is not present for class [com.khaidir.belajar.ci.BelajarCiApplicationTests]: using defaults.
+15:19:16.747 [main] INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+15:19:16.777 [main] INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6b9651f3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@38bc8ab5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@687080dc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@23d2a7e8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7a9273a8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26a7b76d]
+15:19:16.797 [main] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.khaidir.belajar.ci.dao.ProductDoaTests]
+15:19:16.797 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:19:16.797 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:19:16.797 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.khaidir.belajar.ci.dao.ProductDoaTests] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+15:19:16.797 [main] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@262b2c86 declaringClass = 'com.khaidir.belajar.ci.dao.ProductDoaTests', classes = '{class com.khaidir.belajar.ci.BelajarCiApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+15:19:16.797 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.khaidir.belajar.ci.dao.ProductDoaTests]: class path resource [com/khaidir/belajar/ci/dao/ProductDoaTests-context.xml] does not exist
+15:19:16.797 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.khaidir.belajar.ci.dao.ProductDoaTests]: class path resource [com/khaidir/belajar/ci/dao/ProductDoaTestsContext.groovy] does not exist
+15:19:16.797 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.khaidir.belajar.ci.dao.ProductDoaTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:19:16.807 [main] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.khaidir.belajar.ci.dao.ProductDoaTests]
+15:19:16.807 [main] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [com.khaidir.belajar.ci.dao.ProductDoaTests]: using defaults.
+15:19:16.807 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+15:19:16.807 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4d3167f4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@ed9d034, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6121c9d6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@87f383f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4eb7f003, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@eafc191]
+15:19:16.817 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.khaidir.belajar.ci.BelajarCiApplicationTests]
+15:19:16.817 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.khaidir.belajar.ci.BelajarCiApplicationTests]
+15:19:16.817 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.khaidir.belajar.ci.dao.ProductDoaTests]
+15:19:16.817 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.khaidir.belajar.ci.dao.ProductDoaTests]
+Running com.khaidir.belajar.ci.BelajarCiApplicationTests
+15:19:16.827 [main] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.khaidir.belajar.ci.BelajarCiApplicationTests]
+15:19:16.827 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:19:16.827 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:19:16.827 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.khaidir.belajar.ci.BelajarCiApplicationTests] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+15:19:16.838 [main] DEBUG o.s.t.c.w.WebTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@42eca56e declaringClass = 'com.khaidir.belajar.ci.BelajarCiApplicationTests', classes = '{class com.khaidir.belajar.ci.BelajarCiApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+15:19:16.839 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.khaidir.belajar.ci.BelajarCiApplicationTests]: class path resource [com/khaidir/belajar/ci/BelajarCiApplicationTests-context.xml] does not exist
+15:19:16.840 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.khaidir.belajar.ci.BelajarCiApplicationTests]: class path resource [com/khaidir/belajar/ci/BelajarCiApplicationTestsContext.groovy] does not exist
+15:19:16.841 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.khaidir.belajar.ci.BelajarCiApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:19:16.841 [main] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.khaidir.belajar.ci.BelajarCiApplicationTests]
+15:19:16.842 [main] DEBUG o.s.t.c.w.WebTestContextBootstrapper - @TestExecutionListeners is not present for class [com.khaidir.belajar.ci.BelajarCiApplicationTests]: using defaults.
+15:19:16.847 [main] INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+15:19:16.848 [main] INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@8e24743, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@74a10858, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@23fe1d71, org.springframework.test.context.support.DirtiesContextTestExecutionListener@28ac3dc3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@32eebfca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4e718207]
+15:19:16.848 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.khaidir.belajar.ci.BelajarCiApplicationTests]
+15:19:16.849 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.khaidir.belajar.ci.BelajarCiApplicationTests]
+15:19:16.850 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.khaidir.belajar.ci.BelajarCiApplicationTests]
+15:19:16.851 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.khaidir.belajar.ci.BelajarCiApplicationTests]
+15:19:16.855 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@75881071 testClass = BelajarCiApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2a70a3d8 testClass = BelajarCiApplicationTests, locations = '{}', classes = '{class com.khaidir.belajar.ci.BelajarCiApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+15:19:16.856 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.khaidir.belajar.ci.BelajarCiApplicationTests]
+15:19:16.857 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.khaidir.belajar.ci.BelajarCiApplicationTests]
+15:19:16.989 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+15:19:16.999 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+15:19:16.999 [main] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+15:19:16.999 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.3.RELEASE)
+
+2016-05-04 15:19:17.610  INFO 6688 --- [           main] c.k.b.ci.BelajarCiApplicationTests       : Starting BelajarCiApplicationTests on AHMADKHAIDIR-PC with PID 6688 (D:\Private\learn-to-fly\Spring\boot\belajar-ci\target\test-classes started by AHMAD KHAIDIR in D:\Private\learn-to-fly\Spring\boot\belajar-ci)
+2016-05-04 15:19:17.611  INFO 6688 --- [           main] c.k.b.ci.BelajarCiApplicationTests       : No active profile set, falling back to default profiles: default
+2016-05-04 15:19:17.777  INFO 6688 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@67c27493: startup date [Wed May 04 15:19:17 ICT 2016]; root of context hierarchy
+2016-05-04 15:19:20.267  INFO 6688 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-05-04 15:19:22.031  INFO 6688 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8f2ebda] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-05-04 15:19:23.325  INFO 6688 --- [           main] o.f.core.internal.util.VersionPrinter    : Flyway 3.2.1 by Boxfuse
+2016-05-04 15:19:23.793  INFO 6688 --- [           main] o.f.c.i.dbsupport.DbSupportFactory       : Database: jdbc:mysql://localhost/belajar (MySQL 5.6)
+2016-05-04 15:19:23.883  INFO 6688 --- [           main] o.f.core.internal.command.DbValidate     : Validated 1 migration (execution time 00:00.059s)
+2016-05-04 15:19:23.982  INFO 6688 --- [           main] o.f.core.internal.command.DbMigrate      : Current version of schema `belajar`: 0.0.1.20160504
+2016-05-04 15:19:23.983  INFO 6688 --- [           main] o.f.core.internal.command.DbMigrate      : Schema `belajar` is up to date. No migration necessary.
+2016-05-04 15:19:24.385  INFO 6688 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-05-04 15:19:24.429  INFO 6688 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-05-04 15:19:24.628  INFO 6688 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-05-04 15:19:24.631  INFO 6688 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-05-04 15:19:24.634  INFO 6688 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-05-04 15:19:24.947  INFO 6688 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-05-04 15:19:25.027  INFO 6688 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-05-04 15:19:25.219  INFO 6688 --- [           main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-05-04 15:19:27.464  INFO 6688 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@67c27493: startup date [Wed May 04 15:19:17 ICT 2016]; root of context hierarchy
+2016-05-04 15:19:27.649  INFO 6688 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-04 15:19:27.667  INFO 6688 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-04 15:19:27.738  INFO 6688 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-04 15:19:27.738  INFO 6688 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-04 15:19:27.818  INFO 6688 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-04 15:19:28.335  INFO 6688 --- [           main] c.k.b.ci.BelajarCiApplicationTests       : Started BelajarCiApplicationTests in 11.324 seconds (JVM running for 12.448)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.574 sec - in com.khaidir.belajar.ci.BelajarCiApplicationTests
+Running com.khaidir.belajar.ci.dao.ProductDoaTests
+2016-05-04 15:19:28.375  INFO 6688 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.khaidir.belajar.ci.dao.ProductDoaTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2016-05-04 15:19:28.380  INFO 6688 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-05-04 15:19:28.381  INFO 6688 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@203e705e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@78c74647, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@39652a30, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5763a655, org.springframework.test.context.transaction.TransactionalTestExecutionListener@40c8067, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@46bb0bdf]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.3.RELEASE)
+
+2016-05-04 15:19:28.549  INFO 6688 --- [           main] c.k.belajar.ci.dao.ProductDoaTests       : Starting ProductDoaTests on AHMADKHAIDIR-PC with PID 6688 (D:\Private\learn-to-fly\Spring\boot\belajar-ci\target\test-classes started by AHMAD KHAIDIR in D:\Private\learn-to-fly\Spring\boot\belajar-ci)
+2016-05-04 15:19:28.550  INFO 6688 --- [           main] c.k.belajar.ci.dao.ProductDoaTests       : No active profile set, falling back to default profiles: default
+2016-05-04 15:19:28.557  INFO 6688 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@13192275: startup date [Wed May 04 15:19:28 ICT 2016]; root of context hierarchy
+2016-05-04 15:19:29.743  INFO 6688 --- [           main] o.f.c.i.dbsupport.DbSupportFactory       : Database: jdbc:mysql://localhost/belajar (MySQL 5.6)
+2016-05-04 15:19:29.757  INFO 6688 --- [           main] o.f.core.internal.command.DbValidate     : Validated 1 migration (execution time 00:00.011s)
+2016-05-04 15:19:29.784  INFO 6688 --- [           main] o.f.core.internal.command.DbMigrate      : Current version of schema `belajar`: 0.0.1.20160504
+2016-05-04 15:19:29.785  INFO 6688 --- [           main] o.f.core.internal.command.DbMigrate      : Schema `belajar` is up to date. No migration necessary.
+2016-05-04 15:19:29.854  INFO 6688 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-05-04 15:19:29.854  INFO 6688 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-05-04 15:19:29.917  INFO 6688 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-05-04 15:19:29.927  INFO 6688 --- [           main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-05-04 15:19:29.967  WARN 6688 --- [           main] o.h.j.i.EntityManagerFactoryRegistry     : HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2016-05-04 15:19:30.367  INFO 6688 --- [           main] c.k.belajar.ci.dao.ProductDoaTests       : Started ProductDoaTests in 1.974 seconds (JVM running for 14.48)
+2016-05-04 15:19:30.436  INFO 6688 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@274bae2c testClass = ProductDoaTests, testInstance = com.khaidir.belajar.ci.dao.ProductDoaTests@6eeb29c0, testMethod = testSave@ProductDoaTests, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@699e0bf0 testClass = ProductDoaTests, locations = '{}', classes = '{class com.khaidir.belajar.ci.BelajarCiApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@1d3d76b4]; rollback [true]
+2016-05-04 15:19:30.455  INFO 6688 --- [           main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [mysql/delete-data.sql]
+2016-05-04 15:19:30.460  INFO 6688 --- [           main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [mysql/delete-data.sql] in 5 ms.
+2016-05-04 15:19:30.461  INFO 6688 --- [           main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [mysql/sample-product.sql]
+2016-05-04 15:19:30.463  INFO 6688 --- [           main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [mysql/sample-product.sql] in 2 ms.
+2016-05-04 15:19:30.596  INFO 6688 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test context [DefaultTestContext@274bae2c testClass = ProductDoaTests, testInstance = com.khaidir.belajar.ci.dao.ProductDoaTests@6eeb29c0, testMethod = testSave@ProductDoaTests, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@699e0bf0 testClass = ProductDoaTests, locations = '{}', classes = '{class com.khaidir.belajar.ci.BelajarCiApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]].
+2016-05-04 15:19:30.619  INFO 6688 --- [           main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@274bae2c testClass = ProductDoaTests, testInstance = com.khaidir.belajar.ci.dao.ProductDoaTests@4beae1e3, testMethod = testFindById@ProductDoaTests, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@699e0bf0 testClass = ProductDoaTests, locations = '{}', classes = '{class com.khaidir.belajar.ci.BelajarCiApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@1d3d76b4]; rollback [true]
+2016-05-04 15:19:30.622  INFO 6688 --- [           main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [mysql/delete-data.sql]
+2016-05-04 15:19:30.624  INFO 6688 --- [           main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [mysql/delete-data.sql] in 2 ms.
+2016-05-04 15:19:30.624  INFO 6688 --- [           main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [mysql/sample-product.sql]
+2016-05-04 15:19:30.626  INFO 6688 --- [           main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [mysql/sample-product.sql] in 2 ms.
+Hibernate: 
+    select
+        product0_.id as id1_0_0_,
+        product0_.code as code2_0_0_,
+        product0_.name as name3_0_0_,
+        product0_.price as price4_0_0_ 
+    from
+        product product0_ 
+    where
+        product0_.id=?
+Hibernate: 
+    select
+        product0_.id as id1_0_0_,
+        product0_.code as code2_0_0_,
+        product0_.name as name3_0_0_,
+        product0_.price as price4_0_0_ 
+    from
+        product product0_ 
+    where
+        product0_.id=?
+2016-05-04 15:19:30.910  INFO 6688 --- [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test context [DefaultTestContext@274bae2c testClass = ProductDoaTests, testInstance = com.khaidir.belajar.ci.dao.ProductDoaTests@4beae1e3, testMethod = testFindById@ProductDoaTests, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@699e0bf0 testClass = ProductDoaTests, locations = '{}', classes = '{class com.khaidir.belajar.ci.BelajarCiApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]].
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.405 sec - in com.khaidir.belajar.ci.dao.ProductDoaTests
+2016-05-04 15:19:30.922  INFO 6688 --- [       Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@67c27493: startup date [Wed May 04 15:19:17 ICT 2016]; root of context hierarchy
+2016-05-04 15:19:31.024  INFO 6688 --- [       Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@13192275: startup date [Wed May 04 15:19:28 ICT 2016]; root of context hierarchy
+2016-05-04 15:19:31.033  INFO 6688 --- [       Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-05-04 15:19:31.053  INFO 6688 --- [       Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.5:jar (default-jar) @ belajar-ci ---
+[INFO] Building jar: D:\Private\learn-to-fly\Spring\boot\belajar-ci\target\belajar-ci-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.3.3.RELEASE:repackage (default) @ belajar-ci ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 23.710 s
+[INFO] Finished at: 2016-05-04T15:19:33+07:00
+[INFO] Final Memory: 29M/248M
+[INFO] ------------------------------------------------------------------------
